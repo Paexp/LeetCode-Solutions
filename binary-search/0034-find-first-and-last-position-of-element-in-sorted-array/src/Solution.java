@@ -7,6 +7,7 @@ public class Solution {
             return new int[]{-1, -1};
         }
         int firstPosition = searchFirstPosition(nums, target);
+        // 不存在则返回值为-1, 需要增加判断
         if (firstPosition == -1) {
             return new int[]{-1, -1};
         }
